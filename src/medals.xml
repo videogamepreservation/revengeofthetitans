@@ -1,0 +1,1253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- 
+  Copyright (c) 2003-onwards Shaven Puppy Ltd
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ 
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 
+  * Neither the name of 'Shaven Puppy' nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+  TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+  PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--  Medals -->
+<resources>
+
+	<medal
+		name="medal.gold"
+		title="=$medal.gold.title"
+		description="=$medal.gold.description"
+		repeatable="true"
+		points="100"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.gold.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.gold.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.silver"
+		title="=$medal.silver.title"
+		description="=$medal.silver.description"
+		repeatable="true"
+		points="50"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.silver.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.silver.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.bronze"
+		title="=$medal.bronze.title"
+		description="=$medal.bronze.description"
+		repeatable="true"
+		points="25"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.bronze.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.bronze.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.earth_boss"
+		title="=$medal.earth_boss.title"
+		description="=$medal.earth_boss.description"
+		repeatable="true"
+		points="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.boss.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.boss.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.moon_boss"
+		title="=$medal.moon_boss.title"
+		description="=$medal.moon_boss.description"
+		repeatable="true"
+		points="150"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.boss.02" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.boss.glow.02" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.mars_boss"
+		title="=$medal.mars_boss.title"
+		description="=$medal.mars_boss.description"
+		repeatable="true"
+		points="200"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.boss.03" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.boss.glow.03" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.saturn_boss"
+		title="=$medal.saturn_boss.title"
+		description="=$medal.saturn_boss.description"
+		repeatable="true"
+		points="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.boss.04" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.boss.glow.04" />
+ 		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.titan_boss"
+		title="=$medal.titan_boss.title"
+		description="=$medal.titan_boss.description"
+		repeatable="true"
+		points="300"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.boss.05" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.boss.glow.05" />
+           
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.earth_complete"
+		title="=$medal.earth_complete.title"
+		description="=$medal.earth_complete.description"
+		repeatable="true"
+		points="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.victory.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.victory.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.earth.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.moon_complete"
+		title="=$medal.moon_complete.title"
+		description="=$medal.moon_complete.description"
+		repeatable="true"
+		points="200"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.victory.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.victory.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.moon.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.mars_complete"
+		title="=$medal.mars_complete.title"
+		description="=$medal.mars_complete.description"
+		repeatable="true"
+		points="300"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.victory.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.victory.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.mars.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.saturn_complete"
+		title="=$medal.saturn_complete.title"
+		description="=$medal.saturn_complete.description"
+		repeatable="true"
+		points="400"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.victory.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.victory.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.saturn.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.titan_complete"
+		title="=$medal.titan_complete.title"
+		description="=$medal.titan_complete.description"
+		repeatable="true"
+		points="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.victory.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.victory.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.titan.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.perfect_game"
+		title="=$medal.perfect_game.title"
+		description="=$medal.perfect_game.description"
+		repeatable="true"
+		points="10000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.perfect.game.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.perfect.game.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.perfect_world"
+		title="=$medal.perfect_world.title"
+		description="=$medal.perfect_world.description"
+		repeatable="true"
+		points="1000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.perfect.world.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.perfect.world.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.pristine"
+		title="=$medal.pristine.title"
+		description="=$medal.pristine.description"
+		repeatable="true"
+		points="100"
+		money="500"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.pristine.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.pristine.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.careful"
+		title="=$medal.careful.title"
+		description="=$medal.careful.description"
+		repeatable="true"
+		points="50"
+		money="250"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.careful.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.careful.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.careless"
+		title="=$medal.careless.title"
+		description="=$medal.careless.description"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.careless.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.careless.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.10.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.rash"
+		title="=$medal.rash.title"
+		description="=$medal.rash.description"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.careless.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.careless.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.25.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.reckless"
+		title="=$medal.reckless.title"
+		description="=$medal.reckless.description"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.careless.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.careless.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.50.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.negligent"
+		title="=$medal.negligent.title"
+		description="=$medal.negligent.description"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.careless.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.careless.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.100.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.vanquished_100"
+		title="=$medal.vanquished_100.title"
+		description="=$medal.vanquished_100.description"
+		points="25"
+		money="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.100.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.vanquished_250"
+		title="=$medal.vanquished_250.title"
+		description="=$medal.vanquished_250.description"
+		points="50"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.250.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.vanquished_500"
+		title="=$medal.vanquished_500.title"
+		description="=$medal.vanquished_500.description"
+		points="100"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.500.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.vanquished_1000"
+		title="=$medal.vanquished_1000.title"
+		description="=$medal.vanquished_1000.description"
+		points="250"
+		money="1000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.1000.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.vanquished_2500"
+		title="=$medal.vanquished_2500.title"
+		description="=$medal.vanquished_2500.description"
+		points="500"
+		money="2500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.2500.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.vanquished_5000"
+		title="=$medal.vanquished_5000.title"
+		description="=$medal.vanquished_5000.description"
+		points="1000"
+		money="5000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.5000.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.vanquished_10000"
+		title="=$medal.vanquished_10000.title"
+		description="=$medal.vanquished_10000.description"
+		points="2500"
+		money="10000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.vanquished.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.vanquished.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.10000.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+
+	<medal
+		name="medal.crushed_25"
+		title="=$medal.crushed_25.title"
+		description="=$medal.crushed_25.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.crushed.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.crushed.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.25.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.crushed_50"
+		title="=$medal.crushed_50.title"
+		description="=$medal.crushed_50.description"
+		points="1000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.crushed.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.crushed.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.50.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.crushed_100"
+		title="=$medal.crushed_100.title"
+		description="=$medal.crushed_100.description"
+		points="2500"
+		money="2500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.crushed.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.crushed.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.100.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.fried_100"
+		title="=$medal.fried_100.title"
+		description="=$medal.fried_100.description"
+		points="250"
+		money="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.fried.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.fried.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.100.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.fried_250"
+		title="=$medal.fried_250.title"
+		description="=$medal.fried_250.description"
+		points="500"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.fried.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.fried.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.250.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.fried_500"
+		title="=$medal.fried_500.title"
+		description="=$medal.fried_500.description"
+		points="1000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.fried.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.fried.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.500.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+
+	<medal
+		name="medal.nuked_50"
+		title="=$medal.nuked_50.title"
+		description="=$medal.nuked_50.description"
+		points="500"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.nuked.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.nuked.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.50.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.nuked_100"
+		title="=$medal.nuked_100.title"
+		description="=$medal.nuked_100.description"
+		points="1000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.nuked.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.nuked.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.100.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.nuked_250"
+		title="=$medal.nuked_250.title"
+		description="=$medal.nuked_250.description"
+		points="2500"
+		money="1000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.nuked.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.nuked.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.250.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.exploded_100"
+		title="=$medal.exploded_100.title"
+		description="=$medal.exploded_100.description"
+		points="100"
+		money="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.exploded.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.exploded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.100.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.exploded_250"
+		title="=$medal.exploded_250.title"
+		description="=$medal.exploded_250.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.exploded.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.exploded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.250.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+		
+	<medal
+		name="medal.exploded_500"
+		title="=$medal.exploded_500.title"
+		description="=$medal.exploded_500.description"
+		points="500"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.exploded.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.exploded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.500.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.offensive_capability"
+		title="=$medal.offensive_capability.title"
+		description="=$medal.offensive_capability.description"
+		points="5000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.offensive.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.offensive.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.defensive_capability"
+		title="=$medal.defensive_capability.title"
+		description="=$medal.defensive_capability.description"
+		points="5000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.defensive.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.defensive.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.spear_and_magic_helmet"
+		title="=$medal.spear_and_magic_helmet.title"
+		description="=$medal.spear_and_magic_helmet.description"
+		points="1000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.upgrades.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.upgrades.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.dangerous_nutter"
+		title="=$medal.dangerous_nutter.title"
+		description="=$medal.dangerous_nutter.description"
+		points="1000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.explosives.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.explosives.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.robot_wants_kitty"
+		title="=$medal.robot_wants_kitty.title"
+		description="=$medal.robot_wants_kitty.description"
+		points="1000"
+		money="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.automation.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.automation.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.propellerhead"
+		title="=$medal.propellerhead.title"
+		description="=$medal.propellerhead.description"
+		points="5000"
+		money="1000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.tech.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.tech.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.problem_for_grandchildren"
+		title="=$medal.problem_for_grandchildren.title"
+		description="=$medal.problem_for_grandchildren.description"
+		points="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.nuclear.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.nuclear.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.devious"
+		title="=$medal.devious.title"
+		description="=$medal.devious.description"
+		points="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.decoy.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.decoy.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.encyclopaedic"
+		title="=$medal.encyclopaedic.title"
+		description="=$medal.encyclopaedic.description"
+		points="5000"
+		money="2500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.r+d.all.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.r+d.all.glow.01" />
+            <sprite layer="10" colored="text-bold"  image="spriteimage.medal.label.researched.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.tape_and_string"
+		title="=$medal.tape_and_string.title"
+		description="=$medal.tape_and_string.description"
+		repeatable="true"
+		points="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.tapeandstring.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.tapeandstring.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.phew_that_was_close"
+		title="=$medal.phew_that_was_close.title"
+		description="=$medal.phew_that_was_close.description"
+		repeatable="true"
+		points="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.phew.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.phew.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.skin_of_your_teeth"
+		title="=$medal.skin_of_your_teeth.title"
+		description="=$medal.skin_of_your_teeth.description"
+		repeatable="true"
+		points="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.skinofyoutteeth.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.skinofyoutteeth.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.awesome"
+		title="=$medal.awesome.title"
+		description="=$medal.awesome.description"
+		repeatable="true"
+		points="1000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.awesome.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.awesome.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.registered"
+		title="=$medal.registered.title"
+		description="=$medal.registered.description"
+		points="500"
+		suppressHint="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.registered.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.registered.glow.01" />
+		</layers></appearance>
+	</medal>
+
+	<medal
+		name="medal.short_tempered"
+		title="=$medal.short_tempered.title"
+		description="=$medal.short_tempered.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.powerup.bezerk.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.powerup.bezerk.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.x5.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.only_way_to_be_sure"
+		title="=$medal.only_way_to_be_sure.title"
+		description="=$medal.only_way_to_be_sure.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.powerup.smartbomb.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.powerup.smartbomb.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.x5.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.toilet_break"
+		title="=$medal.toilet_break.title"
+		description="=$medal.toilet_break.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.powerup.freeze.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.powerup.freeze.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.x5.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.jimll_fix_it"
+		title="=$medal.jimll_fix_it.title"
+		description="=$medal.jimll_fix_it.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.powerup.repair.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.powerup.repair.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.x5.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.batfink"
+		title="=$medal.batfink.title"
+		description="=$medal.batfink.description"
+		points="250"
+		money="250"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.powerup.shield.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.powerup.shield.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.x5.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+
+	<medal
+		name="medal.efficient"
+		title="=$medal.efficient.title"
+		description="=$medal.efficient.description"
+		repeatable="true"
+		points="50"
+		money="500"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.efficient.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.efficient.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<medal
+		name="medal.thrifty"
+		title="=$medal.thrifty.title"
+		description="=$medal.thrifty.description"
+		repeatable="true"
+		points="100"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.profit.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.profit.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$5k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.tight_fisted"
+		title="=$medal.tight_fisted.title"
+		description="=$medal.tight_fisted.description"
+		repeatable="true"
+		points="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.profit.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.profit.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$10k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.short_arms_deep_pockets"
+		title="=$medal.short_arms_deep_pockets.title"
+		description="=$medal.short_arms_deep_pockets.description"
+		repeatable="true"
+		points="2500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.profit.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.profit.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$15k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.hoarded_$5000"
+		title="=$medal.hoarded_5000.title"
+		description="=$medal.hoarded_5000.description"
+		points="500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.hoarded.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.hoarded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$5k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.hoarded_$10000"
+		title="=$medal.hoarded_10000.title"
+		description="=$medal.hoarded_10000.description"
+		points="2500"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.hoarded.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.hoarded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$10k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.hoarded_$25000"
+		title="=$medal.hoarded_25000.title"
+		description="=$medal.hoarded_25000.description"
+		points="5000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.hoarded.01" />
+			<sprite layer="10" colored="text-bold"  image="spriteimage.medal.hoarded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$25k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	
+	<medal
+		name="medal.hoarded_$50000"
+		title="=$medal.hoarded_50000.title"
+		description="=$medal.hoarded_50000.description"
+		points="5000"
+		steam="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.hoarded.01" />
+			<sprite layer="10" colored="text-bold" image="spriteimage.medal.hoarded.glow.01" />
+            <sprite layer="11" colored="text-bold"  image="spriteimage.medal.label.$50k.glow.01" />
+		</layers></appearance>
+	</medal>
+	
+	<!-- Xmas medals -->
+	<medal
+		name="medal.xmas.1"
+		title="=$medal.xmas.1.title"
+		description="=$medal.xmas.1.description"
+		points="1000"
+		steam="true"
+		xmas="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.xmas.01" />
+			<sprite layer="10" colored="text-bold" image="spriteimage.medal.xmas.glow.01" />
+		</layers></appearance>
+	</medal>
+	<medal
+		name="medal.xmas.2"
+		title="=$medal.xmas.2.title"
+		description="=$medal.xmas.2.description"
+		points="1000"
+		steam="true"
+		xmas="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.xmas.02" />
+			<sprite layer="10" colored="text-bold" image="spriteimage.medal.xmas.glow.02" />
+		</layers></appearance>
+	</medal>
+	<medal
+		name="medal.xmas.3"
+		title="=$medal.xmas.3.title"
+		description="=$medal.xmas.3.description"
+		points="1000"
+		steam="true"
+		xmas="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.xmas.03" />
+			<sprite layer="10" colored="text-bold" image="spriteimage.medal.xmas.glow.03" />
+		</layers></appearance>
+	</medal>
+	<medal
+		name="medal.xmas.4"
+		title="=$medal.xmas.4.title"
+		description="=$medal.xmas.4.description"
+		points="1000"
+		steam="true"
+		xmas="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.xmas.04" />
+			<sprite layer="10" colored="text-bold" image="spriteimage.medal.xmas.glow.04" />
+ 		</layers></appearance>
+	</medal>
+	<medal
+		name="medal.xmas.victory"
+		title="=$medal.xmas.victory.title"
+		description="=$medal.xmas.victory.description"
+		points="1000"
+		steam="true"
+		xmas="true"
+	>
+		<appearance><layers scale="0.4">
+			<sprite layer="9" bottomColored="info-floor" topColored="info-building" image="spriteimage.medal.xmas.05" />
+			<sprite layer="10" colored="text-bold" image="spriteimage.medal.xmas.glow.05" />
+		</layers></appearance>
+	</medal>
+
+	
+	<area name="medal.slot.title.spec"
+		inherit="dialog.message.spec"
+		halign="left"
+        valign="top"
+		size="=$medal_slot_w,$medal_slot_h"
+		textOffset="0,0"
+		color="text-bold"
+		layer="9"
+		scale="0.5"
+	/>
+
+	<area name="medal.slot.desc.spec"
+		inherit="medal.slot.title.spec"
+		textOffset="0,-11"
+		valign="top"
+		size="=$medal_slot_w-$medal_slot_desc_padding,$medal_slot_h"
+		color="text"
+		leading="-2"
+	/>
+	
+	<area name="medal.slot.value.spec"
+		inherit="medal.slot.title.spec"
+		halign="right"
+		valign="top"
+		color="text"
+		leading="-1"
+	/>
+	
+	<area name="medal.slot.img.spec"
+		layer="9"
+		size="=$medal_slot_pic_w,$medal_slot_h"
+		scale="0.5"
+		offset="=$medal_slot_pic_w/2+1,$medal_slot_h/2"
+	/>
+		
+
+		
+	<instance
+		name="medals.screen"
+		class="worm.screens.MedalsScreen"
+		autocreated="true"
+		keyboardnavigation="false"
+		transition="instant.transition"
+		centre="both"
+		dialog="true"
+	>
+	
+		<hotkey key="BACKSPACE" area="close"/>	
+		<hotkey key="ESCAPE" area="close"/>	
+		<hotkey key="PRIOR" area="prev"/>	
+		<hotkey key="NEXT" area="next"/>	
+		<hotkey key="LEFT" area="prev"/>	
+		<hotkey key="RIGHT" area="next"/>	
+		<hotkey key="UP" area="prev"/>	
+		<hotkey key="DOWN" area="next"/>	
+	
+		<area id="medals_background" text="=$medals.medals_background.text" inherit="dialog.closeable.spec" position="=$medals_x,$medals_y" size="=$medals_w,$medals_h" />
+		<area id="medals_background_glow" inherit="dialog.glow.spec" position="=$medals_x,$medals_y" size="=$medals_w,$medals_h" />
+
+		<area id="background" inherit="dialog.ingame.background.spec"/>
+		<area id="background_glow" inherit="dialog.ingame.background.glow.spec"/>
+
+		<area id="close" inherit="close.default.button.spec" position="=$medals_x+$medals_w+$close_x_offset,$medals_y+$medals_h+$close_y_offset" />
+		
+		
+		<!--  page list -->
+	
+		<area id="id_medal_slot_1_title" group="slot_1_group" text="PERFECT GAME" inherit="medal.slot.title.spec" position="=$medal_slot_x,$medal_slot_1_y" />
+		<area id="id_medal_slot_1_desc" group="slot_1_group" text="COMPLETED ALL LEVELS AT MAXIMUM DIFFICULTY" inherit="medal.slot.desc.spec" position="=$medal_slot_x,$medal_slot_1_y" />
+		<area id="id_medal_slot_1_value" group="slot_1_group" text="1000" inherit="medal.slot.value.spec" position="=$medal_slot_x,$medal_slot_1_y" />
+		<area id="id_medal_slot_1_img" group="slot_1_group" inherit="medal.slot.img.spec" position="0,0" >
+			<anchor x="mid" d="=$medal_slot_img_anc_x"/><anchor y="mid" d="=-$SCREEN_Y+$medal_slot_1_y+$medal_slot_img_offset"/></area>
+	
+		<area id="id_medal_slot_2_title" group="slot_2_group" text="HOARDED $50000" inherit="medal.slot.title.spec" position="=$medal_slot_x,$medal_slot_2_y" />
+		<area id="id_medal_slot_2_desc" group="slot_2_group" text="GOT $50000 IN THE BANK" inherit="medal.slot.desc.spec" position="=$medal_slot_x,$medal_slot_2_y" />
+		<area id="id_medal_slot_2_value" group="slot_2_group" text="1000" inherit="medal.slot.value.spec" position="=$medal_slot_x,$medal_slot_2_y" />
+		<area id="id_medal_slot_2_img" group="slot_2_group" inherit="medal.slot.img.spec" position="0,0" >
+			<anchor x="mid" d="=$medal_slot_img_anc_x"/><anchor y="mid" d="=-$SCREEN_Y+$medal_slot_2_y+$medal_slot_img_offset"/></area>
+				
+		<area id="id_medal_slot_3_title" group="slot_3_group" text="SHORT ARMS DEEP POCKETS" inherit="medal.slot.title.spec" position="=$medal_slot_x,$medal_slot_3_y" />
+		<area id="id_medal_slot_3_desc" group="slot_3_group" text="MADE $15000 PROFIT FROM ONE LEVEL" inherit="medal.slot.desc.spec" position="=$medal_slot_x,$medal_slot_3_y" />
+		<area id="id_medal_slot_3_value" group="slot_3_group" text="1000" inherit="medal.slot.value.spec" position="=$medal_slot_x,$medal_slot_3_y" />
+		<area id="id_medal_slot_3_img" group="slot_3_group" inherit="medal.slot.img.spec" position="0,0" >
+			<anchor x="mid" d="=$medal_slot_img_anc_x"/><anchor y="mid" d="=-$SCREEN_Y+$medal_slot_3_y+$medal_slot_img_offset"/></area>
+								
+		<area id="id_medal_slot_4_title" group="slot_4_group" text="TAPE AND STRING" inherit="medal.slot.title.spec" position="=$medal_slot_x,$medal_slot_4_y" />
+		<area id="id_medal_slot_4_desc" group="slot_4_group" text="BASE HELD TOGETHER WITH TAPE AND STRING AT END OF MISSION" inherit="medal.slot.desc.spec" position="=$medal_slot_x,$medal_slot_4_y" />
+		<area id="id_medal_slot_4_value" group="slot_4_group" text="1000" inherit="medal.slot.value.spec" position="=$medal_slot_x,$medal_slot_4_y" />
+		<area id="id_medal_slot_4_img" group="slot_4_group" inherit="medal.slot.img.spec" position="0,0" >
+			<anchor x="mid" d="=$medal_slot_img_anc_x"/><anchor y="mid" d="=-$SCREEN_Y+$medal_slot_4_y+$medal_slot_img_offset"/></area>
+							
+		<area id="id_medal_slot_5_title" group="slot_5_group" text="DEFENSIVE CAPABILITY" inherit="medal.slot.title.spec" position="=$medal_slot_x,$medal_slot_5_y" />
+		<area id="id_medal_slot_5_desc" group="slot_5_group" text="RESEARCHED ALL BARRICADES AND THE SHIELD GENERATOR" inherit="medal.slot.desc.spec" position="=$medal_slot_x,$medal_slot_5_y" />
+		<area id="id_medal_slot_5_value" group="slot_5_group" text="1000" inherit="medal.slot.value.spec" position="=$medal_slot_x,$medal_slot_5_y" />
+		<area id="id_medal_slot_5_img" group="slot_5_group" inherit="medal.slot.img.spec" position="0,0" >
+			<anchor x="mid" d="=$medal_slot_img_anc_x"/><anchor y="mid" d="=-$SCREEN_Y+$medal_slot_5_y+$medal_slot_img_offset"/></area>
+							
+		<area id="id_medal_slot_6_title" group="slot_6_group" text="A PROBLEM FOR OUR GRANDCHILDREN" inherit="medal.slot.title.spec" position="=$medal_slot_x,$medal_slot_6_y" />
+		<area id="id_medal_slot_6_desc" group="slot_6_group" text="RESEARCHED NUCLEAR REACTORS" inherit="medal.slot.desc.spec" position="=$medal_slot_x,$medal_slot_6_y" />
+		<area id="id_medal_slot_6_value" group="slot_6_group" text="1000" inherit="medal.slot.value.spec" position="=$medal_slot_x,$medal_slot_6_y" />
+		<area id="id_medal_slot_6_img" group="slot_6_group" inherit="medal.slot.img.spec" position="0,0" >
+			<anchor x="mid" d="=$medal_slot_img_anc_x"/><anchor y="mid" d="=-$SCREEN_Y+$medal_slot_6_y+$medal_slot_img_offset"/></area>
+	
+		<!--  page nav -->
+
+		<area id="prev" text="=$medals.prev.text" inherit="button.spec" position="=$medals_x+$dialog_padding,$medals_y+$dialog_padding" />
+		<area id="next" text="=$medals.next.text" inherit="button.spec" position="=$medals_x+$medals_w-$button_w-$dialog_padding,$medals_y+$dialog_padding" />
+		
+		<area id="page" text="1/1" inherit="dialog.message.spec" halign="right" color="text-dark"
+			size="42,20" position="=$medals_w/2+$medals_x-22,$medals_y+$dialog_padding" />
+	
+		<!--  player stats -->
+	
+		<area id="score" inherit="shop.info.spec" color="text-bold" text="SCORE: 234567" halign="left" position="=$medals_x+$medals_padding,$medals_stats_y" size="=$medals_w-($medals_padding*2),12" />
+		<area id="rank" inherit="shop.info.spec" color="text-bold" text="RANK: LONGER RANK TITLE" halign="left" position="=$medals_x+$medals_padding,$medals_stats_y" size="=$medals_w-($medals_padding*2),28"  />
+		
+		
+		<!--  temp rank images thang -->
+		<area id="rank-img" position="263,255" size="32,32" offset="16,16" scale="0.4" noClick="true"/>
+		
+	</instance>		
+
+
+
+
+
+</resources>

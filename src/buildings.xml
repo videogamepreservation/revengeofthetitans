@@ -1,0 +1,1035 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- 
+  Copyright (c) 2003-onwards Shaven Puppy Ltd
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ 
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 
+  * Neither the name of 'Shaven Puppy' nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+  TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+  PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!-- Buildings! -->
+
+<resources>
+
+	<!-- Load all the tags -->
+	<include resource="tags.xml" />
+
+	<!-- Building keys -->
+	<include resource="buildings-properties.xml" />
+	
+	<array name="hitpoints.2x2.3.array" autocreated="true">
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.2x2.3.01"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.2x2.3.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.2x2.3.02"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.2x2.3.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.2x2.3.03"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.2x2.3.back.01"/>
+		</layers></item>
+	 </array>
+	<array name="hitpoints.3x3.3.array" autocreated="true">
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.3.01"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.3.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.3.02"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.3.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.3.03"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.3.back.01"/>
+		</layers></item>
+	 </array>
+	<array name="hitpoints.3x3.5.array" autocreated="true">
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.5.01"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.5.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.5.02"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.5.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.5.03"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.5.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.5.04"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.5.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.3x3.5.05"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.3x3.5.back.01"/>
+		</layers></item>					 
+	 </array>	
+	<array name="hitpoints.4x4.3.array" autocreated="true">
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.3.01"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.3.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.3.02"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.3.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.3.03"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.3.back.01"/>
+		</layers></item>
+	 </array>
+	<array name="hitpoints.4x4.5.array" autocreated="true">
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.5.01"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.5.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.5.02"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.5.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.5.03"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.5.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.5.04"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.5.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.4x4.5.05"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.4x4.5.back.01"/>
+		</layers></item>					 
+	 </array>	
+	<array name="hitpoints.5x5.10.array" autocreated="true">
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.01"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.02"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.03"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.04"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.05"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>	
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.06"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.07"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>	 
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.08"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.09"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>
+	 	<item><layers scale="0.5" autocreated="true">
+			<sprite layer="=$hitpointslayer" image="spriteimage.hitpoints.5x5.10.10"/>
+			<sprite layer="=$hitpointslayer-1" image="spriteimage.hitpoints.5x5.10.back.01"/>
+		</layers></item>								 
+	 </array>		
+
+	<instance
+		class="worm.buildings.BaseBuildingFeature"
+		name="base.building.spec"
+		hitpoints="40"
+		bounds="0,0,60,36"
+		title="BASE"
+		hitPointsGraphics="hitpoints.5x5.10.array"
+		repairEmitter="repair.5x5.emitter"
+		cost="500"
+	/>
+
+
+	<!-- REFINING ============================================================================================================================ -->
+
+	
+	<instance
+		class="worm.buildings.FactoryBuildingFeature"
+		name="factory.building.spec"
+		hud="build_factory"
+		tooltipGraphic="=$key.game.factory.icon"
+		bounds="0,0,40,24"
+		title="=$factory.building.title"
+		hitpoints="20"
+		bonusdescription="=$factory.building.bonus"
+		cost="250"
+		hitPointsGraphics="hitpoints.4x4.5.array"
+		forcefieldGraphics="forcefield.4x4.5.array"
+		repairEmitter="repair.4x4.emitter"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.factory"
+		baseProductionRate="180"
+		minProductionRate="20"
+		productionRatePerCollector="20"
+		productionRatePerWarehouse="10"
+		amountToExtract="10"
+		amountToExtractPerWarehouse="2"
+		maxCollectors="4"
+		maxWarehouses="4"
+		description="factory.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.WarehouseBuildingFeature"
+		name="warehouse.building.spec"
+		hud="build_warehouse"
+		tooltipGraphic="=$key.game.warehouse.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$warehouse.building.title"
+		bonusdescription="=$warehouse.building.bonus"
+		cost="750"
+		repairEmitter="repair.2x2.emitter"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.silo"		
+		description="warehouse.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.CollectorBuildingFeature"
+		name="collector.building.spec"
+		hud="build_collector"
+		tooltipGraphic="=$key.game.collector.icon"
+		bounds="0,0,20,16"
+		title="=$collector.building.title"
+		hitpoints="12"
+		cost="500"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		repairEmitter="repair.2x2.emitter"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.collector"
+		description="collector.building.description"
+	/>
+
+
+	<!-- TURRETS ============================================================================================================================ -->
+
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		name="turret.building.spec"
+		maxReactors="4"
+		maxScanners="4"
+	/>
+	
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="blaster.building.spec"
+		hud="build_blaster"
+		tooltipGraphic="=$key.game.blaster.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$blaster.building.title"
+		weapon="blaster.weapon"
+		beamOffsetX="1"
+		beamOffsetY="7"
+		cost="250"
+		repairEmitter="repair.3x3.emitter"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.blaster"
+		baseRange="=$baserange"	
+		rangeIncrement="=$rangeincrement"
+		description="blaster.building.description"
+	>
+		<barrel>10,15</barrel>
+	</instance>	
+			
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="heavyblaster.building.spec"
+		hud="build_heavyblaster"
+		tooltipGraphic="=$key.game.heavyblaster.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$heavyblaster.building.title"
+		weapon="heavyblaster.weapon"
+		beamOffsetX="1"
+		beamOffsetY="8"
+		cost="500"
+		repairEmitter="repair.3x3.emitter"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.heavyblaster"		
+		baseRange="=$baserange"	
+		rangeIncrement="=$rangeincrement"
+		description="heavyblaster.building.description"
+	>
+		<barrel>8,19</barrel>
+		<barrel>8,15</barrel>
+	</instance>	
+
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="multiblaster.building.spec"
+		hud="build_multiblaster"
+		tooltipGraphic="=$key.game.multiblaster.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$multiblaster.building.title"
+		weapon="multiblaster.weapon"
+		beamOffsetX="-3"
+		beamOffsetY="10"
+		cost="750"
+		repairEmitter="repair.3x3.emitter"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.multiblaster"		
+		baseRange="=$baserange"	
+		rangeIncrement="=$rangeincrement"
+		description="multiblaster.building.description"
+	>
+		<barrel>7,19</barrel>
+		<barrel>20,19</barrel>
+		<barrel>7,17</barrel>
+		<barrel>20,17</barrel>
+		<barrel>7,15</barrel>
+		<barrel>20,15</barrel>
+	</instance>	
+			
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="blastcannon.building.spec"
+		hud="build_blastcannon"
+		tooltipGraphic="=$key.game.blastcannon.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$blastcannon.building.title"
+		weapon="blastcannon.weapon"
+		beamOffsetX="-3"
+		beamOffsetY="11"
+		cost="750"
+		repairEmitter="repair.3x3.emitter"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.blastcannon"		
+		baseRange="=$baserange"	
+		rangeIncrement="=$rangeincrement"
+		description="blastcannon.building.description"
+	>
+		<barrel>8,21</barrel>
+		<barrel>19,21</barrel>
+		<barrel>8,16</barrel>
+		<barrel>19,16</barrel>
+	</instance>	
+			
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="shotgun.building.spec"
+		hud="build_spreadercannon"
+		tooltipGraphic="=$key.game.spreadercannon.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$shotgun.building.title"
+		weapon="shotgun.weapon"
+		ignoreDeflection="true"
+		beamOffsetX="-3"
+		beamOffsetY="13"
+		cost="500"
+		repairEmitter="repair.3x3.emitter"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.spreader"
+		baseRange="=$baserange"	
+		rangeIncrement="=$rangeincrement"
+		description="shotgun.building.description"
+	>
+		<barrel>7,22</barrel>
+		<barrel>20,22</barrel>
+		<barrel>6,19</barrel>
+		<barrel>21,19</barrel>
+		<barrel>7,16</barrel>
+		<barrel>20,16</barrel>
+	</instance>	
+
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="assault.building.spec"
+		hud="build_assaultcannon"
+		tooltipGraphic="=$key.game.assaultcannon.icon"
+		hitpoints="12"
+		bounds="0,0,40,24"
+		title="=$assault.building.title"
+		ignoreDeflection="true"
+		weapon="assault.weapon"
+		beamOffsetX="-2"
+		beamOffsetY="15"
+		cost="1000"
+		repairEmitter="repair.4x4.emitter"
+		hitPointsGraphics="hitpoints.4x4.3.array"
+		forcefieldGraphics="forcefield.4x4.3.array"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.assault"
+		heavyWeapon="true"		
+		baseRange="=$baserange"	
+		rangeIncrement="=$rangeincrement"
+		description="assault.building.description"
+	>
+		<barrel>13,26</barrel>
+		<barrel>22,26</barrel>
+		<barrel>9,24</barrel>
+		<barrel>26,24</barrel>
+		<barrel>8,21</barrel>
+		<barrel>27,21</barrel>
+		<barrel>9,18</barrel>
+		<barrel>26,18</barrel>
+		<barrel>13,16</barrel>
+		<barrel>22,16</barrel>
+	</instance>	
+
+			
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="rocket.building.spec"
+		hud="build_rocket"
+		tooltipGraphic="=$key.game.rocket.icon"
+		hitpoints="12"
+		bounds="0,0,40,24"
+		title="=$rocket.building.title"
+		weapon="rocket.weapon"
+		beamOffsetX="6"
+		beamOffsetY="15"
+		cost="1500"
+		minimumRange="96"
+		baseRange="120"
+		rangeincrement="40"
+		repairEmitter="repair.4x4.emitter"
+		hitPointsGraphics="hitpoints.4x4.3.array"
+		forcefieldGraphics="forcefield.4x4.3.array"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.rockets"
+		heavyWeapon="true"
+		dontTargetFlyingTargets="true"
+		numAvailable="1"	
+		maxAvailable="5"
+		agitation="0.0625"
+		description="rocket.building.description"
+	>
+		<barrel>12,26</barrel>
+		<barrel>17,26</barrel>
+		<barrel>23,26</barrel>
+		<barrel>15,22</barrel>
+		<barrel>20,22</barrel>
+		<barrel>12,18</barrel>
+		<barrel>17,18</barrel>
+		<barrel>23,18</barrel>		
+	</instance>	
+				
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="laser.building.spec"
+		hud="build_laser"
+		tooltipGraphic="=$key.game.laser.icon"
+		hitpoints="12"
+		bounds="0,0,40,24"
+		title="=$laser.building.title"
+		weapon="laser.weapon"
+		beamOffsetX="-3"
+		beamOffsetY="12"
+		cost="1500"
+		baserange="80"
+		rangeincrement="32"
+		repairEmitter="repair.4x4.emitter"
+		hitPointsGraphics="hitpoints.4x4.3.array"
+		forcefieldGraphics="forcefield.4x4.3.array"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.laser"
+		heavyWeapon="true"
+		targetIntoMountains="true"
+		numAvailable="1"
+		maxAvailable="5"
+		agitation="0.0625"
+		description="laser.building.description"
+	>
+		<barrel>17,20</barrel>
+	</instance>	
+			
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		inherit="turret.building.spec"
+		name="disruptor.building.spec"
+		hud="build_disruptor"
+		tooltipGraphic="=$key.game.disruptor.icon"
+		hitpoints="12"
+		bounds="0,0,40,24"
+		title="=$disruptor.building.title"
+		weapon="disruptor.weapon"
+		beamOffsetX="7"
+		beamOffsetY="8"
+		cost="1500"
+		baserange="64"
+		rangeincrement="8"
+		repairEmitter="repair.4x4.emitter"
+		hitPointsGraphics="hitpoints.4x4.3.array"
+		forcefieldGraphics="forcefield.4x4.3.array"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.disruptor"
+		heavyWeapon="true"
+		numAvailable="1"
+		maxAvailable="5"
+		agitation="0.0625"
+		description="disruptor.building.description"
+	>
+		<barrel>17,20</barrel>
+	</instance>		
+
+
+
+	<!-- MINES ============================================================================================================================ -->
+	
+		
+	<instance
+		class="worm.buildings.MinefieldFeature"
+		name="mine.building.spec"
+		hud="build_mine"
+		tooltipGraphic="=$key.game.mine.icon"
+		bounds="-4,-4,8,8"
+		title="=$mine.building.title"
+		numAvailable="20"
+		maxAvailable="99"
+		cost="25"
+		explosionRadius="16.0"
+		damage="12"
+		uses="1"
+		paintable="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.mine"		
+		description="mine.building.description"
+	/>
+		
+	<instance
+		class="worm.buildings.MinefieldFeature"
+		name="clustermine.building.spec"
+		hud="build_clustermine"
+		tooltipGraphic="=$key.game.clustermine.icon"
+		bounds="0,0,12,12"
+		title="=$clustermine.building.title"
+		numAvailable="10"
+		maxAvailable="50"
+		cost="75"
+		explosionRadius="8.0"
+		damage="6"
+		uses="4"
+		paintable="true"
+		shopIcon="building.clustermine"		
+		description="clustermine.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.MinefieldFeature"
+		name="blastmine.building.spec"
+		hud="build_blastmine"
+		tooltipGraphic="=$key.game.blastmine.icon"
+		bounds="0,0,12,8"
+		title="=$blastmine.building.title"
+		numAvailable="5"
+		maxAvailable="25"
+		cost="100"
+		explosionRadius="80.0"
+		damage="16"
+		uses="1"
+		paintable="true"
+		requiresArming="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.blastmine"		
+		description="blastmine.building.description"
+	/>
+	
+
+
+	<!-- ROBOTICS ============================================================================================================================ -->
+
+	<instance
+		class="worm.buildings.BarracksBuildingFeature"
+		name="barracks.building.spec"
+		hud="build_barracks"
+		tooltipGraphic="=$key.game.barracks.icon"
+		bounds="0,0,40,24"
+		title="=$barracks.building.title"
+		hitpoints="20"
+		bonusdescription="=$barracks.building.bonus"
+		cost="1000"
+		buffedCost="1500"
+		hitPointsGraphics="hitpoints.4x4.5.array"
+		forcefieldGraphics="forcefield.4x4.5.array"
+		repairEmitter="repair.4x4.emitter"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.barracks"
+		unit="unit.droid"
+		buffedUnit="unit.droid.buffed"
+		sergeant="unit.droid.sergeant"
+		numAvailable="1"
+		maxAvailable="5"
+		agitation="0.0625"
+		baseProductionRate="600"
+		buffedProductionRate="900"
+		maxReactors="4"
+		productionRatePerReactor="75"
+		unitsPerReactor="1"
+		maxUnits="5"
+		description="barracks.building.description"
+	/>
+		
+	<instance
+		class="worm.buildings.BarracksBuildingFeature"
+		name="tankfactory.building.spec"
+		hud="build_tankfactory"
+		tooltipGraphic="=$key.game.tankfactory.icon"
+		bounds="0,0,40,24"
+		title="=$tankfactory.building.title"
+		hitpoints="20"
+		bonusdescription="=$tankfactory.building.bonus" 
+		cost="2500"
+		buffedCost="3500"
+		hitPointsGraphics="hitpoints.4x4.5.array"
+		forcefieldGraphics="forcefield.4x4.5.array"
+		repairEmitter="repair.4x4.emitter"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.tankfactory"
+		unit="unit.tank"
+		buffedUnit="unit.tank.buffed"
+		sergeant="unit.tank.sergeant"
+		numAvailable="1"
+		maxAvailable="3"
+		agitation="0.125"
+		baseProductionRate="750"
+		buffedProductionRate="1000"
+		maxReactors="4"
+		productionRatePerReactor="75"
+		unitsPerReactor="1"
+		maxUnits="4"
+		description="tankfactory.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.BarracksBuildingFeature"
+		name="repairdrones.building.spec"
+		hud="build_repairdrones"
+		tooltipGraphic="=$key.game.repairdrones.icon"
+		bounds="0,0,40,24"
+		title="=$repairdrones.building.title"
+		hitpoints="20"
+		bonusdescription="=$repairdrones.building.bonus" 
+		cost="2500"
+		hitPointsGraphics="hitpoints.4x4.5.array"
+		forcefieldGraphics="forcefield.4x4.5.array"
+		repairEmitter="repair.4x4.emitter"
+		buildEmitter="build.4x4.emitter"
+		shopIcon="building.repairdrones"
+		unit="unit.drone"
+		numAvailable="1"
+		maxAvailable="1"
+		baseProductionRate="1200"
+		buffedProductionRate="900"
+		maxReactors="4"
+		productionRatePerReactor="75"
+		unitsPerReactor="1"
+		maxUnits="3"
+		description="repairdrones.building.description"
+	/>
+
+
+
+	<!-- MISC ============================================================================================================================ -->
+
+
+	<instance
+		class="worm.buildings.CapacitorBuildingFeature"
+		name="capacitor.building.spec"
+		hud="build_capacitor"
+		tooltipGraphic="=$key.game.capacitor.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$capacitor.building.title"
+		cost="750"
+		weapon="capacitor.weapon"
+		bezerkWeapon="bezerk.weapon"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		repairEmitter="repair.3x3.emitter"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.capacitor"
+		baseRange="64.0"
+		rangePerReactor="16.0"
+		maxReactors="4"		
+		description="capacitor.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.ShieldGeneratorBuildingFeature"
+		name="shield.building.spec"
+		hud="build_shield"
+		tooltipGraphic="=$key.game.shield.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$shield.building.title"
+		bonusdescription="=$shield.building.bonus"
+		cost="2500"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		repairEmitter="repair.2x2.emitter"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.shields"
+		numAvailable="1"		
+		maxAvailable="10"
+		agitation="0.0625"
+		description="shield.building.description"
+	/>
+
+
+	<instance
+		class="worm.buildings.TurretBuildingFeature"
+		name="decoy.building.spec"
+		hud="build_decoy"
+		tooltipGraphic="=$key.game.decoy.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$decoy.building.title"
+		cost="1500"
+		paintable="true"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		repairEmitter="repair.2x2.emitter"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.decoy"
+		numAvailable="1"		
+		maxAvailable="10"
+		agitation="-0.03125"
+		description="decoy.building.description"
+	/>
+	
+	<instance
+		class="worm.buildings.ScarecrowBuildingFeature"
+		name="scarecrow.building.spec"
+		hud="build_scarecrow"
+		tooltipGraphic="=$key.game.scarecrow.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$scarecrow.building.title"
+		cost="250"
+		radius="64.0"
+		danger="=$#worm.entities.Gidrah.MAX_DANGER"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		repairEmitter="repair.2x2.emitter"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.scarecrow"		
+		description="scarecrow.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.BarricadeFeature"
+		name="tangleweb.building.spec"
+		hud="build_tangleweb"
+		tooltipGraphic="=$key.game.tangleweb.icon"
+		hitpoints="0"
+		bounds="0,0,12,12"
+		title="=$tangleweb.building.title"
+		shortTitle="=$tangleweb.building.title"
+		numAvailable="20"
+		maxAvailable="80"
+		cost="50"
+		difficulty="0"
+		paintable="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.tangleweb"		
+		registeredOnly="true"
+		setting="building"
+		slowdown="true"
+		gidletproof="true"
+		description="tangleweb.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.CloakBuildingFeature"
+		name="cloakingdevice.building.spec"
+		hud="build_cloakingdevice"
+		tooltipGraphic="=$key.game.cloakingdevice.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$cloakingdevice.building.title"
+		cost="750"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		repairEmitter="repair.3x3.emitter"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.cloakingdevice"
+		numAvailable="1"
+		maxAvailable="5"		
+		description="cloakingdevice.building.description"
+	/>
+
+
+
+	<!-- ADD ONS ============================================================================================================================ -->
+
+			
+	<instance
+		class="worm.buildings.ScannerBuildingFeature"
+		name="scanner.building.spec"
+		hud="build_scanner"
+		tooltipGraphic="=$key.game.scanner.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$scanner.building.title"
+		bonusdescription="=$scanner.building.bonus"
+		cost="500"
+		repairEmitter="repair.2x2.emitter"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.scanner"		
+		description="scanner.building.description"
+	/>
+	
+	<instance
+		class="worm.buildings.BatteryBuildingFeature"
+		name="battery.building.spec"
+		hud="build_battery"
+		tooltipGraphic="=$key.game.battery.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$battery.building.title"
+		bonusdescription="=$battery.building.bonus"
+		cost="250"
+		repairEmitter="repair.2x2.emitter"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.battery"		
+		description="battery.building.description"
+	/>
+				
+	<instance
+		class="worm.buildings.CoolingTowerBuildingFeature"
+		name="coolingtower.building.spec"
+		hud="build_coolingtower"
+		tooltipGraphic="=$key.game.coolingtower.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$coolingtower.building.title"
+		bonusdescription="=$coolingtower.building.bonus"
+		cost="250"
+		repairEmitter="repair.2x2.emitter"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.cooling"	
+		description="coolingtower.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.AutoLoaderBuildingFeature"
+		name="autoloader.building.spec"
+		hud="build_autoloader"
+		tooltipGraphic="=$key.game.autoloader.icon"
+		hitpoints="12"
+		bounds="0,0,20,16"
+		title="=$autoloader.building.title"
+		bonusdescription="=$autoloader.building.bonus"
+		cost="250"
+		repairEmitter="repair.2x2.emitter"
+		hitPointsGraphics="hitpoints.2x2.3.array"
+		forcefieldGraphics="forcefield.2x2.3.array"
+		buildEmitter="build.2x2.emitter"
+		shopIcon="building.autoloader"
+		description="autoloader.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.ReactorBuildingFeature"
+		name="reactor.building.spec"
+		hud="build_reactor"
+		tooltipGraphic="=$key.game.reactor.icon"
+		hitpoints="12"
+		bounds="0,0,32,20"
+		title="=$reactor.building.title"
+		bonusdescription="=$reactor.building.bonus"
+		cost="250"
+		hitPointsGraphics="hitpoints.3x3.3.array"
+		forcefieldGraphics="forcefield.3x3.3.array"
+		repairEmitter="repair.3x3.emitter"
+		buildEmitter="build.3x3.emitter"
+		shopIcon="building.reactor"		
+		description="reactor.building.description"
+	/>
+
+
+
+	<!--  BARRICADES ============================================================================================================================ -->
+	
+	<instance
+		class="worm.buildings.BarricadeFeature"
+		name="concrete.building.spec"
+		hud="build_concrete"
+		tooltipGraphic="=$key.game.concrete.icon"
+		hitpoints="=$barricade*2"
+		bounds="0,0,12,8"
+		title="=$concrete.building.title"
+		shortTitle="=$concrete.building.shorttitle"
+		numAvailable="40"
+		maxAvailable="80"
+		cost="10"
+		difficulty="=$cost*2"
+		paintable="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.concrete"		
+		description="concrete.building.description"
+	/>
+
+	<instance
+		class="worm.buildings.BarricadeFeature"
+		name="steel.building.spec"
+		hud="build_steel"
+		tooltipGraphic="=$key.game.steel.icon"
+		hitpoints="=$barricade*3"
+		bounds="0,0,12,8"
+		title="=$steel.building.title"
+		shortTitle="=$steel.building.shorttitle"
+		cost="20"
+		numAvailable="30"
+		maxAvailable="60"
+		difficulty="=$cost*3"
+		paintable="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.steel"		
+		description="steel.building.description"
+	/>
+				
+	<instance
+		class="worm.buildings.BarricadeFeature"
+		name="titanium.building.spec"
+		hud="build_titanium"
+		tooltipGraphic="=$key.game.titanium.icon"
+		hitpoints="=$barricade*4"
+		bounds="0,0,12,8"
+		title="=$titanium.building.title"
+		shortTitle="=$titanium.building.shorttitle"
+		numAvailable="20"
+		maxAvailable="40"
+		cost="30"
+		difficulty="=$cost*4"
+		paintable="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.titanium"		
+		description="titanium.building.description"
+	/>
+				
+	<instance
+		class="worm.buildings.BarricadeFeature"
+		name="nanomesh.building.spec"
+		hud="build_nanomesh"
+		tooltipGraphic="=$key.game.nanomesh.icon"
+		hitpoints="=$barricade*5"
+		bounds="0,0,12,8"
+		title="=$nanomesh.building.title"
+		shortTitle="=$nanomesh.building.shorttitle"
+		numAvailable="10"
+		maxAvailable="20"
+		cost="40"
+		difficulty="=$cost*5"
+		paintable="true"
+		buildEmitter="build.1x1.emitter"
+		shopIcon="building.nanomesh"		
+		registeredOnly="true"
+		setting="building"
+		gidletProof="true"
+		description="nanomesh.building.description"
+	/>
+
+
+
+
+	<!-- CRYSTALS ========================================================================================================================= -->
+	
+	<instance
+		class="worm.buildings.CrystalFeature"
+		name="crystal.small.building.spec"
+		hitpoints="=$crystal*1"
+		bounds="0,0,16,16"
+		value="1000"
+	/>	
+	
+	<instance
+		class="worm.buildings.CrystalFeature"
+		name="crystal.medium.building.spec"
+		hitpoints="=$crystal*2"
+		bounds="0,0,32,16"
+		value="2000"
+	/>	
+	
+	<instance
+		class="worm.buildings.CrystalFeature"
+		name="crystal.large.building.spec"
+		hitpoints="=$crystal*4"
+		bounds="0,0,32,16"
+		value="3000"
+	/>	
+	
+	
+
+	<include resource="buildings-generic.xml"/>
+	<include resource="buildings-earth.xml"/>
+	<include resource="buildings-moon.xml"/>
+	<include resource="buildings-mars.xml"/>
+	<include resource="buildings-saturn.xml"/>
+	<include resource="buildings-titan.xml"/>
+	
+</resources>

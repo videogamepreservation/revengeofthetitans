@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2003-onwards Shaven Puppy Ltd
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ 
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 
+  * Neither the name of 'Shaven Puppy' nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+  TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+  PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<!--
+	hint stuff
+-->
+<resources>
+
+	<include resource="tags.xml"/>
+
+	<hint name="hint.explosives">
+		<icon>
+			<layers scale="0.25">
+				<sprite layer="10" sublayer="1" offset="0,-8" colored="shadow" image="spriteimage.info.mine.ground.01"/>				
+				<sprite layer="10" sublayer="2" offset="0,-8" bottomColored="gui-dark" topColored="gui-mid" image="spriteimage.info.mine.01"/>
+				<sprite layer="10" sublayer="3" offset="0,-8" image="spriteimage.info.mine.glow.01"/>	
+				<sprite layer="10" sublayer="4" offset="0,30">
+					<animation>
+						<animation name="hint.proximity.anim">
+							<scale scale="0.35"/>		
+							<frame i="spriteimage.info.alert.yellow.01" d="32"/>
+							<frame i="hint.alert.anim" d="0"/>
+						</animation>
+					</animation>
+				</sprite>
+			</layers>		
+		</icon>
+		<hints>
+			<array>
+				<item><text>=hint.explosives.text</text></item>
+			</array>
+		</hints>
+	</hint>
+
+
+
+
+	<layers name="hint.info.layers" scale="0.4">
+			<sprite layer="10" sublayer="1" offset="0,-30" colored="gui-bright" animation="info.info.ground.anim"/>				
+			<sprite layer="10" sublayer="2" offset="0,-30" colored="gui-bright" animation="info.info.anim"/>
+	</layers>		
+
+	<hint name="hint.fastforward" icon="hint.info.layers" minLevel="2" maxLevel="10">
+		<hints>
+			<array>
+				<item><text>=hint.fastforward.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	
+	<hint name="hint.timerstarts" icon="hint.info.layers" minLevel="1" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.timerstarts.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	
+	<hint name="hint.unmined" icon="hint.info.layers" minLevel="4" maxLevel="9">
+		<hints>
+			<array>
+				<item><text>=hint.unmined.text.1</text></item>
+				<item><text>=hint.unmined.text.2</text></item>
+				<item><text>=hint.unmined.text.3</text></item>
+			</array>
+		</hints>
+	</hint>
+	
+	<hint name="hint.scroll" icon="hint.info.layers" minLevel="0" maxLevel="3">
+		<hints>
+			<array>
+				<item><text>=hint.scroll.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	
+	<hint name="hint.dragbuild" icon="hint.info.layers" minLevel="2" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.dragbuild.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.dragsell" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.dragsell.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.stack" icon="hint.info.layers" minLevel="0" maxLevel="9">
+		<hints>
+			<array>
+				<item><text>=hint.stack.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.turrets_in_path" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.turrets_in_path.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	
+	<hint name="hint.disruptor" icon="hint.info.layers" random="true">
+		<hints>
+			<array>
+				<item><text>=hint.disruptor.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	
+	<hint name="hint.shield" icon="hint.info.layers" random="true">
+		<hints>
+			<array>
+				<item><text>=hint.shield.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.repair" icon="hint.info.layers" random="true">
+		<hints>
+			<array>
+				<item><text>=hint.repair.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.armoured" icon="hint.info.layers">
+		<hints>
+			<array>
+				<item><text>=hint.armoured.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.capacitors" icon="hint.info.layers">
+		<hints>
+			<array>
+				<item><text>=hint.capacitors.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.sell_turrets" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.sell_turrets.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.sell_addons" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.sell_addons.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.sell_misc" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.sell_misc.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.dontsell" icon="hint.info.layers">
+		<hints>
+			<array>
+				<item><text>=hint.dontsell.text</text></item>
+			</array>
+		</hints>
+	</hint>
+
+	<!-- Powerup usage hints -->
+	<hint name="hint.powerup" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.powerup.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.cool_powerup" icon="hint.info.layers">
+		<hints>
+			<array>
+				<item><text>=hint.cool_powerup.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.exotic_powerup" icon="hint.info.layers">
+		<hints>
+			<array>
+				<item><text>=hint.exotic_powerup.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.barricade_pickup" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.barricade_pickup.text</text></item>
+			</array>
+		</hints>
+	</hint>
+	<hint name="hint.mines_pickup" icon="hint.info.layers" minLevel="0" maxLevel="5">
+		<hints>
+			<array>
+				<item><text>=hint.mines_pickup.text</text></item>
+			</array>
+		</hints>
+	</hint>
+		
+	
+	<!-- anims -->
+	
+	
+	<animation name="hint.alert.anim">
+		<loop count="10"/> 
+			<animcolor a="+-25" d="2"/>
+			<repeat seq="1"/> 
+		<animcolor a="0" d="16"/>
+		<animcolor a="255" d="32"/>
+		<goto seq="0"/>
+	</animation>
+	
+	<animation name="info.info.anim">
+		<frame i="spriteimage.info.info.01" d="0"/>
+		<animcolor a="63" d="2" />
+		<animcolor a="70" d="2" />
+		<animcolor a="87" d="2" />
+		<animcolor a="113" d="2" />
+		<animcolor a="143" d="2" />
+		<animcolor a="175" d="2" />
+		<animcolor a="205" d="2" />
+		<animcolor a="230" d="2" />
+		<animcolor a="248" d="2" />
+		<animcolor a="255" d="2" />
+		<animcolor a="253" d="2" />
+		<animcolor a="250" d="2" />
+		<animcolor a="244" d="2" />
+		<animcolor a="237" d="2" />
+		<animcolor a="228" d="2" />
+		<animcolor a="218" d="2" />
+		<animcolor a="207" d="2" />
+		<animcolor a="195" d="2" />
+		<animcolor a="182" d="2" />
+		<animcolor a="169" d="2" />
+		<animcolor a="156" d="2" />
+		<animcolor a="142" d="2" />
+		<animcolor a="129" d="2" />
+		<animcolor a="117" d="2" />
+		<animcolor a="105" d="2" />
+		<animcolor a="94" d="2" />
+		<animcolor a="85" d="2" />
+		<animcolor a="77" d="2" />
+		<animcolor a="70" d="2" />
+		<animcolor a="66" d="2" />
+		<goto seq="1"/>
+	</animation>
+
+	<animation name="info.info.ground.anim">
+		<frame i="spriteimage.info.info.ground.01" d="0"/>
+		<scale xscale="0.3" yscale="0.3" d="0"/>
+		<animcolor a="63" d="2" />
+		<scale xscale="0.3" yscale="0.3" d="0"/>
+		<animcolor a="70" d="2" />
+		<scale xscale="0.31" yscale="0.31" d="0"/>
+		<animcolor a="87" d="2" />
+		<scale xscale="0.33" yscale="0.33" d="0"/>
+		<animcolor a="113" d="2" />
+		<scale xscale="0.34" yscale="0.34" d="0"/>
+		<animcolor a="143" d="2" />
+		<scale xscale="0.36" yscale="0.36" d="0"/>
+		<animcolor a="175" d="2" />
+		<scale xscale="0.37" yscale="0.37" d="0"/>
+		<animcolor a="205" d="2" />
+		<scale xscale="0.39" yscale="0.39" d="0"/>
+		<animcolor a="230" d="2" />
+		<scale xscale="0.4" yscale="0.4" d="0"/>
+		<animcolor a="248" d="2" />
+		<scale xscale="0.4" yscale="0.4" d="0"/>
+		<animcolor a="255" d="2" />
+		<scale xscale="0.4" yscale="0.4" d="0"/>
+		<animcolor a="253" d="2" />
+		<scale xscale="0.4" yscale="0.4" d="0"/>
+		<animcolor a="250" d="2" />
+		<scale xscale="0.39" yscale="0.39" d="0"/>
+		<animcolor a="244" d="2" />
+		<scale xscale="0.39" yscale="0.39" d="0"/>
+		<animcolor a="237" d="2" />
+		<scale xscale="0.39" yscale="0.39" d="0"/>
+		<animcolor a="228" d="2" />
+		<scale xscale="0.38" yscale="0.38" d="0"/>
+		<animcolor a="218" d="2" />
+		<scale xscale="0.38" yscale="0.38" d="0"/>
+		<animcolor a="207" d="2" />
+		<scale xscale="0.37" yscale="0.37" d="0"/>
+		<animcolor a="195" d="2" />
+		<scale xscale="0.36" yscale="0.36" d="0"/>
+		<animcolor a="182" d="2" />
+		<scale xscale="0.36" yscale="0.36" d="0"/>
+		<animcolor a="169" d="2" />
+		<scale xscale="0.35" yscale="0.35" d="0"/>
+		<animcolor a="156" d="2" />
+		<scale xscale="0.34" yscale="0.34" d="0"/>
+		<animcolor a="142" d="2" />
+		<scale xscale="0.33" yscale="0.33" d="0"/>
+		<animcolor a="129" d="2" />
+		<scale xscale="0.33" yscale="0.33" d="0"/>
+		<animcolor a="117" d="2" />
+		<scale xscale="0.32" yscale="0.32" d="0"/>
+		<animcolor a="105" d="2" />
+		<scale xscale="0.32" yscale="0.32" d="0"/>
+		<animcolor a="94" d="2" />
+		<scale xscale="0.31" yscale="0.31" d="0"/>
+		<animcolor a="85" d="2" />
+		<scale xscale="0.31" yscale="0.31" d="0"/>
+		<animcolor a="77" d="2" />
+		<scale xscale="0.3" yscale="0.3" d="0"/>
+		<animcolor a="70" d="2" />
+		<scale xscale="0.3" yscale="0.3" d="0"/>
+		<animcolor a="66" d="2" />
+		<goto seq="1"/>
+	</animation>
+	
+</resources>
